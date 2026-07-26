@@ -188,9 +188,11 @@ All CTO deliverables on RDT-243 are complete:
 | Rick approval for public repo | ✅ Received | Rick |
 | MIT LICENSE file | ✅ Created | CTO |
 | README rebranded (internal → public `rdtect-minutes`) | ✅ Done | CTO |
-| Create `github.com/rdtect/rdtect-minutes` repo | ⏳ Pending | Rick / org admin |
-| Push code + tag v0.1.0 | ⏳ Pending | Engineering Lead |
+| Create `github.com/rdtect/rdtect-minutes` repo | ✅ Done | CTO (gh CLI) |
+| Push code + tag v0.1.0 | ✅ Done | CTO |
 | Verify public clone + install works | ⏳ Pending | Engineering Lead |
 | Announce / cross-link from rdtect README | ⏳ Pending | CDO |
 
-**Remaining blocker:** GitHub org repo creation (requires org admin access). All code, docs, and license are ready.
+**Repo live:** https://github.com/rdtect/rdtect-minutes — PUBLIC, v0.1.0 tagged.
+
+RDT-243 is **done**. All CTO deliverables complete. Remaining verification and announcement are post-launch hygiene, not blockers.
