@@ -45,4 +45,5 @@ Verified end-to-end pipeline:
 ## Related Issues
 
 - RDT-243 (parent — Meeting Minutes Recorder spec)
+- **RDT-592** (replace — formalised and committed under RDT-592)
 - MA-2 (dependent — Meeting Minutes Agent will wrap this CLI)

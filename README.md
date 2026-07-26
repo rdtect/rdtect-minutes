@@ -211,7 +211,8 @@ python -m meeting_transcriber.main path/to/transcript.json --post-process
 ## Related
 
 - **RDT-243** — Meeting Minutes Recorder (product spec)
-- **RDT-590** — `--post-process` and `--vault-ingest` implementation (this issue)
+- **RDT-592** — `--post-process` and `--vault-ingest` implementation (this issue)
+- **RDT-590** — Original implementation of `--post-process` and `--vault-ingest` (superseded by RDT-592)
 - **MA-2** — Meeting Minutes Agent (micro-agent wrapping this CLI)
 
 ---
