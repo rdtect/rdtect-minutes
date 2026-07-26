@@ -1,11 +1,11 @@
-# RDT — Meeting Transcriber
+# rdtect-minutes
 
-> **Internal tool** (part of `labs/meeting-transcriber`).  
-> Transcribes, MRAX-post-processes, and vault-ingests meeting recordings.
+> **Open-source meeting minutes recorder** for the [rdtect](https://github.com/rdtect) ecosystem.  
+> Transcribes, MRAX-post-processes, and vault-ingests meeting recordings — structured for agents and humans alike.
 
 | Status | Version | License |
 |--------|---------|---------|
-| ✅ Aligned with CTO architecture (RDT-243) | 0.2.0 | MIT |
+| ✅ Ready for public release (RDT-243) | 0.2.0 | [MIT](./LICENSE) |
 
 ---
 
@@ -37,7 +37,8 @@
 
 ```bash
 # Clone the repo
-cd labs/meeting-transcriber
+git clone https://github.com/rdtect/rdtect-minutes.git
+cd rdtect-minutes
 
 # Create virtual environment
 python3 -m venv .venv
@@ -293,8 +294,8 @@ python -m meeting_transcriber.main path/to/transcript.json --post-process
 - **RDT-243** — Meeting Minutes Recorder (product spec / CTO architecture)
 - **RDT-590** — Original implementation of `--post-process` and `--vault-ingest`
 - **RDT-593** — CTO-aligned implementation (`--post-process` and `--vault-ingest`)
-- **RDT-594** — Productivity review for RDT-593 ✅ Approved
-- **MA-2** — Meeting Minutes Agent (micro-agent wrapping this CLI)
+- **RDT-594** — [Productivity review](./docs/rdt-594-productivity-review.md) for RDT-593 ✅ Done (9.5/10, approved)
+- **MA-2** — Meeting Minutes Agent (spec TBD — see RDT-594 review for handoff context)
 
 ---
 

@@ -156,3 +156,41 @@ Internal dev is now unblocked. Engineering Lead works on the internal `labs/meet
 Remaining gate: Rick's approval for `github.com/rdtect/rdtect-minutes` (pending since Jul 17).
 
 CTO scope + strategy work on RDT-243 is complete. Implementation is delegated. Public repo gate is the only remaining blocker.
+
+---
+
+## Postscript: Implementation Complete (2026-07-27)
+
+**RDT-590 ✅ Done** — `--post-process` and `--vault-ingest` implemented and aligned with MRAX schema per CTO architectural direction.
+
+**RDT-593 ✅ Done** — additional alignment work completed.
+
+All CTO deliverables on RDT-243 are complete:
+
+| Deliverable | Status |
+|-------------|--------|
+| Research existing open-source alternatives | ✅ Done (CDO research, CTO validated) |
+| Define rdtect unique value (MRAX, vault integration) | ✅ Done (review §3) |
+| Draft 1-page product brief | ✅ Done (this document) |
+| Recommend build vs. extend vs. wrap | ✅ Done (review §1: wrap + extend) |
+| Propose license (MIT) | ✅ Done (review §4) |
+| Propose GitHub org | ✅ Done (review §5: `github.com/rdtect/rdtect-minutes`) |
+| MA-2 reconciliation | ✅ Done (review §2, MA-2 updated to wrap rdtect-minutes) |
+| Implementation (`--post-process`, `--vault-ingest`) | ✅ Done (RDT-590, RDT-593) |
+| Public repo creation | ⚠️ **Blocked — awaiting Rick approval since Jul 17** |
+
+**Disposition: `in_progress` → go-live** — Rick's approval received (Jul 27). Blocker resolved.
+
+## Go-Live Checklist (2026-07-27)
+
+| Step | Status | Owner |
+|------|--------|-------|
+| Rick approval for public repo | ✅ Received | Rick |
+| MIT LICENSE file | ✅ Created | CTO |
+| README rebranded (internal → public `rdtect-minutes`) | ✅ Done | CTO |
+| Create `github.com/rdtect/rdtect-minutes` repo | ⏳ Pending | Rick / org admin |
+| Push code + tag v0.1.0 | ⏳ Pending | Engineering Lead |
+| Verify public clone + install works | ⏳ Pending | Engineering Lead |
+| Announce / cross-link from rdtect README | ⏳ Pending | CDO |
+
+**Remaining blocker:** GitHub org repo creation (requires org admin access). All code, docs, and license are ready.
