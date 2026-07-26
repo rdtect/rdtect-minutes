@@ -1,0 +1,20 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "meeting-transcriber"
+version = "0.1.0"
+description = "Meeting transcription, diarization, MRAX-structured post-processing, and vault ingestion"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "openai-whisper>=20231117",
+    "torch>=2.0",
+]
+
+[project.scripts]
+meeting-transcriber = "meeting_transcriber.main:cli"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/meeting_transcriber"]
